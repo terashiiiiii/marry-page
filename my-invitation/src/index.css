@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #FDF8F5;
+    font-family: 'Inter', sans-serif;
+}
+
+.noto-serif {
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.05em;
+}
+
+.bg-cream {
+    background-color: #FDF8F5;
+}
+
+.bg-primary {
+    background-color: #C99271;
+}
+
+.text-primary {
+    color: #C99271;
+}
+
+.text-secondary {
+    color: #5D4037;
+}
+
+.border-primary {
+    border-color: #C99271;
+}
+
+.ring-primary {
+    --tw-ring-color: #C99271;
+}
+
+.whitespace-pre-line {
+    white-space: pre-line;
+}
