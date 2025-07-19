@@ -7,7 +7,7 @@ const Rsvp = () => {
         <AnimatedSection id="rsvp" className="py-20 bg-white/60">
             <div className="max-w-2xl mx-auto px-6 text-center">
                 <h2 className="text-2xl md:text-3xl noto-serif mb-4 text-secondary">御出席</h2>
-                <p className="mb-10 text-secondary">お手数ですが {config.rsvpDeadline} までに下記フォームよりご返信ください</p>
+                <p className="mb-10 text-secondary">お手数ですが {config.rsvpDeadline} までに<br></br>下記フォームよりご返信ください</p>
                 <div className="mt-8">
                     <a
                         href={config.rsvpFormUrl}
