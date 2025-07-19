@@ -15,7 +15,7 @@ const Rsvp = () => {
                         rel="noopener noreferrer"
                         className="w-full max-w-xs inline-block bg-primary text-white font-bold py-4 px-6 rounded-lg hover:bg-opacity-90 transition-transform transform hover:scale-105 shadow-lg"
                     >
-                        ご出欠の登録はこちら
+                        御出欠の登録はこちら
                     </a>
                 </div>
             </div>
