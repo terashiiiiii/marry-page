@@ -15,7 +15,7 @@ export const config = {
     },
     rsvpDeadline: "2025年10月31日",
     rsvpFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf1dl1C-RyamblyjmEb-K6GuLVlwcXAUvLKG35e8uYxHALmcw/viewform?usp=header",
-    heroImage: "https://placehold.co/1200x675/E8DED5/5D4037?text=Ryo+%26+Haruka",
+    heroImage: "https://placehold.co/1200x675/E8DED5/5D4037?text=MainPicture",
     galleryImages: [
         { id: 1, src: "https://placehold.co/600x600/E8DED5/5D4037?text=Our+Memory+1" },
         { id: 2, src: "https://placehold.co/600x600/D6A485/FFFFFF?text=Our+Memory+2" },
