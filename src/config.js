@@ -13,7 +13,7 @@ export const config = {
         // 正しい会場の地図URLに修正済みです
         mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.997184403324!2d139.6242330763264!3d35.90700147255951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c1387d353655%3A0x8536e632d9116a4!2z44OZ44Or44O744Kq5aSa5a6u44K144Oz44OR44Os44K577yI44Kw44Op44Oz44K477yJ!5e0!3m2!1sja!2sjp!4v1719742436153!5m2!1sja!2sjp"
     },
-    rsvpDeadline: "2025年10月31日",
+    rsvpDeadline: "2025年10月29日",
     rsvpFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf1dl1C-RyamblyjmEb-K6GuLVlwcXAUvLKG35e8uYxHALmcw/viewform?usp=header",
     heroImage: "https://placehold.co/1200x675/E8DED5/5D4037?text=MainPicture",
     galleryImages: [
@@ -27,7 +27,7 @@ export const config = {
             この度 結婚する運びとなりました
 
             いつも賑やかな音楽と 愛犬のルルに囲まれて
-            笑いの絶えない毎日を過ごしております
+            笑いのたえない毎日を過ごしております
 
             これからは 時ににぎやかに 時に穏やかに
             ふたりと一匹で 温かい家庭を
