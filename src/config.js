@@ -1,8 +1,8 @@
 import MainImage from './pictures/main.jpg';
-import Memory1Image from './pictures/memory1.jpg';
 import Memory2Image from './pictures/memory2.jpg';
-import Memory3Image from './pictures/memory3.jpg';
 import Memory4Image from './pictures/memory4.jpg';
+import Memory7Image from './pictures/memory7.jpg';
+import Memory8Image from './pictures/memory8.jpg';
 
 // =================================================================
 // 招待状の情報をここで編集してください
@@ -17,16 +17,30 @@ export const config = {
         name: "ベルヴィ大宮サンパレス／GLANZ",
         address: "〒330-0845 埼玉県さいたま市大宮区仲町1-123",
         // 正しい会場の地図URLに修正済みです
-        mapUrl: 'https://www.google.com/maps?q=ベルヴィ大宮サンパレス,埼玉県さいたま市大宮区仲町1-123&output=embed'
+        mapUrl: 'https://www.google.com/maps?q=ベルヴィ大宮サンパレス,埼玉県さいたま市大宮区仲町1-123&output=embed',
+        parkings: [
+            {
+                name: "NPC24H大宮仲町2丁目パーキング / 第2パーキング",
+                mapUrl: 'https://maps.google.com/maps?q=NPC24H大宮仲町2丁目パーキング,埼玉県さいたま市大宮区下町２丁目１−１&output=embed'
+            },
+            {
+                name: "みずほパーキング",
+                mapUrl: 'https://maps.google.com/maps?q=みずほパーキング,埼玉県さいたま市大宮区仲町２丁目&output=embed'
+            },
+            {
+                name: "NPC24H大宮駅東口パーキング",
+                mapUrl: 'https://maps.google.com/maps?q=NPC24H大宮駅東口パーキング,埼玉県さいたま市大宮区下町１丁目５８&output=embed'
+            }
+        ]
     },
     rsvpDeadline: "2025年10月29日",
     rsvpFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf1dl1C-RyamblyjmEb-K6GuLVlwcXAUvLKG35e8uYxHALmcw/viewform?usp=header",
     heroImage: MainImage,
     galleryImages: [
-        { id: 1, src: Memory1Image },
-        { id: 2, src: Memory2Image },
-        { id: 3, src: Memory3Image },
-        { id: 4, src: Memory4Image },
+        { id: 1, src: Memory2Image },
+        { id: 2, src: Memory4Image },
+        { id: 3, src: Memory7Image },
+        { id: 4, src: Memory8Image },
     ],
     greeting: {
         body: `私たち 寺島 諒 と 水越 遥香 は
