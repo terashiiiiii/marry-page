@@ -17,7 +17,7 @@ export const config = {
         name: "ベルヴィ大宮サンパレス／GLANZ",
         address: "〒330-0845 埼玉県さいたま市大宮区仲町1-123",
         // 正しい会場の地図URLに修正済みです
-        mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.997184403324!2d139.6242330763264!3d35.90700147255951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c1387d353655%3A0x8536e632d9116a4!2z44OZ44Or44O744Kq5aSa5a6u44K144Oz44OR44Os44K577yI44Kw44Op44Oz44K477yJ!5e0!3m2!1sja!2sjp!4v1719742436153!5m2!1sja!2sjp"
+        mapUrl: 'https://www.google.com/maps?q=ベルヴィ大宮サンパレス,埼玉県さいたま市大宮区仲町1-123&output=embed'
     },
     rsvpDeadline: "2025年10月29日",
     rsvpFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf1dl1C-RyamblyjmEb-K6GuLVlwcXAUvLKG35e8uYxHALmcw/viewform?usp=header",
