@@ -1,3 +1,9 @@
+import MainImage from './pictures/main.jpg';
+import Memory1Image from './pictures/memory1.jpg';
+import Memory2Image from './pictures/memory2.jpg';
+import Memory3Image from './pictures/memory3.jpg';
+import Memory4Image from './pictures/memory4.jpg';
+
 // =================================================================
 // 招待状の情報をここで編集してください
 // =================================================================
@@ -15,12 +21,12 @@ export const config = {
     },
     rsvpDeadline: "2025年10月29日",
     rsvpFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf1dl1C-RyamblyjmEb-K6GuLVlwcXAUvLKG35e8uYxHALmcw/viewform?usp=header",
-    heroImage: "https://placehold.co/1200x675/E8DED5/5D4037?text=MainPicture",
+    heroImage: MainImage,
     galleryImages: [
-        { id: 1, src: "https://placehold.co/600x600/E8DED5/5D4037?text=Our+Memory+1" },
-        { id: 2, src: "https://placehold.co/600x600/D6A485/FFFFFF?text=Our+Memory+2" },
-        { id: 3, src: "https://placehold.co/600x600/BCA598/FFFFFF?text=Our+Memory+3" },
-        { id: 4, src: "https://placehold.co/600x600/E8DED5/5D4037?text=Our+Memory+4" },
+        { id: 1, src: Memory1Image },
+        { id: 2, src: Memory2Image },
+        { id: 3, src: Memory3Image },
+        { id: 4, src: Memory4Image },
     ],
     greeting: {
         body: `私たち 寺島 諒 と 水越 遥香 は

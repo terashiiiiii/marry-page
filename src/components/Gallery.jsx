@@ -17,11 +17,13 @@ const Gallery = () => {
                 ))}
             </div>
             {selectedImg && (
-                <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4" onClick={() => setSelectedImg(null)}>
-                    <button className="absolute top-4 right-4 text-white hover:text-white/80" onClick={() => setSelectedImg(null)}>
-                        <XIcon className="w-10 h-10"/>
-                    </button>
-                    <img src={selectedImg} alt="拡大表示" className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"/>
+                <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-[9999] p-4" onClick={() => setSelectedImg(null)}>
+                    <div className="relative" onClick={(e) => e.stopPropagation()}>
+                        <img src={selectedImg} alt="拡大表示" className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"/>
+                        <button className="absolute -top-3 -right-3 bg-black/50 rounded-full p-2 text-white hover:text-white/80" onClick={() => setSelectedImg(null)}>
+                            <XIcon className="w-6 h-6"/>
+                        </button>
+                    </div>
                 </div>
             )}
         </AnimatedSection>
