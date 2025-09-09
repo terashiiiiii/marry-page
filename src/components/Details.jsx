@@ -37,7 +37,7 @@ const Details = () => (
                 </div>
             </div>
             <div className="mt-20">
-                <div className=" items-start justify-center text-center lg:justify-start text-sm text-secondary space-x-4 whitespace-pre-line">
+                <div className=" items-start justify-center text-center lg:justify-start text-secondary space-x-4 whitespace-pre-line">
                     {config.infoMessage.body}
                 </div>
             </div>
