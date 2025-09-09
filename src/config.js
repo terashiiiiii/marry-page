@@ -16,6 +16,7 @@ export const config = {
     receptionTime: "12:00",
     venue: {
         name: "ベルヴィ大宮サンパレス／GLANZ",
+        url: "https://www.omiya-sunpalace.com/",
         address: "〒330-0845 埼玉県さいたま市大宮区仲町1-123",
         number: "048-642-1122",
         // 正しい会場の地図URLに修正済みです

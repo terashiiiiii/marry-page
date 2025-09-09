@@ -26,7 +26,9 @@ const Details = () => (
                             <MapPinIcon className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
                             <div>
                                 <p className="font-bold text-lg text-secondary">場所</p>
-                                <p className="text-secondary">{config.venue.name}</p>
+                                <a href={config.venue.url} target="_blank" rel="noopener noreferrer" className="text-secondary underline hover:text-primary transition-colors">
+                                    {config.venue.name}
+                                </a>
                                 <p className="text-sm text-secondary">{config.venue.address}</p>
                                 <p className="text-sm text-secondary">TEL. {config.venue.number}</p>
                             </div>
