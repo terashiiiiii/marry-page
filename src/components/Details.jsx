@@ -19,7 +19,7 @@ const Details = () => (
                             <div>
                                 <p className="font-bold text-lg text-secondary">日時</p>
                                 <p className="text-secondary">{new Date(config.weddingDate).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })} ({new Date(config.weddingDate).toLocaleDateString('ja-JP', { weekday: 'short' })})</p>
-                                <p className="text-secondary">挙式: {config.ceremonyTime} | 披露宴: {config.receptionTime}</p>
+                                <p className="text-secondary">受付: {config.receptionHours} | 挙式: {config.ceremonyTime} | 披露宴: {config.receptionTime}</p>
                             </div>
                         </div>
                         <div className="flex items-start justify-center lg:justify-start space-x-4">
@@ -28,9 +28,15 @@ const Details = () => (
                                 <p className="font-bold text-lg text-secondary">場所</p>
                                 <p className="text-secondary">{config.venue.name}</p>
                                 <p className="text-sm text-secondary">{config.venue.address}</p>
+                                <p className="text-sm text-secondary">TEL. {config.venue.number}</p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="mt-20">
+                <div className=" items-start justify-center text-center lg:justify-start text-sm text-secondary space-x-4 whitespace-pre-line">
+                    {config.infoMessage.body}
                 </div>
             </div>
             <div className="mt-20">

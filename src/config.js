@@ -11,11 +11,13 @@ export const config = {
     groomName: "寺島 諒",
     brideName: "水越 遥香",
     weddingDate: "2025-12-13T11:00:00",
+    receptionHours: "10:30",
     ceremonyTime: "11:00",
     receptionTime: "12:00",
     venue: {
         name: "ベルヴィ大宮サンパレス／GLANZ",
         address: "〒330-0845 埼玉県さいたま市大宮区仲町1-123",
+        number: "048-642-1122",
         // 正しい会場の地図URLに修正済みです
         mapUrl: 'https://www.google.com/maps?q=ベルヴィ大宮サンパレス,埼玉県さいたま市大宮区仲町1-123&output=embed',
         parkings: [
@@ -63,4 +65,11 @@ export const config = {
             心より楽しみにしております
             `
    },
+   infoMessage: {
+    body: `当日は 心ばかりのウェルカムドリンクと
+        軽食を用意しております
+        受付を済まされた方から 挙式までの時間を
+        ごゆっくりお過ごしください
+    `
+   }
 };
