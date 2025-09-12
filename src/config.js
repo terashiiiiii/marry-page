@@ -11,7 +11,7 @@ export const config = {
     groomName: "寺島 諒",
     brideName: "水越 遥香",
     weddingDate: "2025-12-13T11:00:00",
-    receptionHours: "10:30",
+    receptionHours: "10:00",
     ceremonyTime: "11:00",
     receptionTime: "12:00",
     venue: {
@@ -68,7 +68,7 @@ export const config = {
    },
    infoMessage: {
     body: `当日は 心ばかりのウェルカムドリンクと
-        軽食を用意しております
+        軽食をご用意しております
         受付を済まされた方から 挙式までの時間を
         ごゆっくりお過ごしください
     `
