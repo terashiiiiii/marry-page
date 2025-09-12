@@ -19,7 +19,9 @@ const Details = () => (
                             <div>
                                 <p className="font-bold text-lg text-secondary">日時</p>
                                 <p className="text-secondary">{new Date(config.weddingDate).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })} ({new Date(config.weddingDate).toLocaleDateString('ja-JP', { weekday: 'short' })})</p>
-                                <p className="text-secondary">受付: {config.receptionHours} | 挙式: {config.ceremonyTime} | 披露宴: {config.receptionTime}</p>
+                                <p className="text-secondary">受付: {config.receptionHours}</p>
+                                <p className="text-secondary">挙式: {config.ceremonyTime}</p>
+                                <p className="text-secondary">披露宴: {config.receptionTime}</p>
                             </div>
                         </div>
                         <div className="flex items-start justify-center lg:justify-start space-x-4">
